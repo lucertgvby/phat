@@ -3,14 +3,14 @@
 ![grafik](https://github.com/user-attachments/assets/703b647f-ee1e-42bd-9c83-8d5bf0af6493)
 
 
-Graphical PowerShell application designed to help investigators, security analysts, and IT professionals examine email headers for signs of phishing or spoofing. The tool parses headers from `.eml` and `.msg` files, highlights important fields, and provides insights into SPF, DKIM, and DMARC results.
+Graphical PowerShell application designed to help investigators, security analysts, and IT professionals examine email headers for signs of phishing or spoofing. The tool parses headers from `.eml` and `.msg (actually alpha wip!)` files, highlights important fields, and provides insights into SPF, DKIM, and DMARC results.
 
 ---
 
 ## 🎯 Features
 
 - GUI-based interface using `System.Windows.Forms`
-- Load `.eml` or `.msg` files directly
+- Load `.eml` or `.msg (actually alpha wip!)` files directly
 - Parses and highlights:
   - `SPF`, `DKIM`, and `DMARC` results
   - Common headers like `From`, `To`, `Subject`, etc.
@@ -19,7 +19,6 @@ Graphical PowerShell application designed to help investigators, security analys
 - Export results to:
   - Plain text (`.txt`)
   - Comma-separated values (`.csv`)
-- Includes banner image support (via Base64)
 
 ---
 
