@@ -4,7 +4,7 @@
     ================================================
     Version    : 0.2
     Author     : suuhm
-    Created    : 08.05.2025
+    Created    : 05//2025
     Language   : PowerShell (.ps1)
     Requires   : Windows PowerShell, .NET Framework (System.Windows.Forms)
 
@@ -98,6 +98,7 @@ $dataGrid.Columns[1].Name = "Value"
 $form.Controls.Add($dataGrid)
 
 # List of important headers
+# Editable or add-Able
 $importantHeaders = @(
     "From", "To", "Reply-To", "Subject", "Date", "Message-ID", "Return-Path",
     "X-Mailer", "X-Originating-IP", "X-Forefront-Antispam-Report",
@@ -107,7 +108,6 @@ $importantHeaders = @(
     "X-MS-Office365-Filtering-Correlation-Id", "Authentication-Results"
 )
 
-# Header analysis function
 function Analyze-Headers {
     param($headerText)
 
@@ -174,7 +174,7 @@ $buttonCheck.Add_Click({
     Analyze-Headers $richTextBox.Text
 })
 
-# Export to TXT
+# Export to TXT CSV Stuff..
 $buttonExportTxt.Add_Click({
     $sfd = New-Object System.Windows.Forms.SaveFileDialog
     $sfd.Filter = "Text File (*.txt)|*.txt"
@@ -188,7 +188,6 @@ $buttonExportTxt.Add_Click({
     }
 })
 
-# Export to CSV
 $buttonExportCsv.Add_Click({
     $sfd = New-Object System.Windows.Forms.SaveFileDialog
     $sfd.Filter = "CSV File (*.csv)|*.csv"
