@@ -3,14 +3,14 @@
 ![grafik](https://github.com/user-attachments/assets/703b647f-ee1e-42bd-9c83-8d5bf0af6493)
 
 
-Graphical PowerShell application designed to help investigators, security analysts, and IT professionals examine email headers for signs of phishing or spoofing. The tool parses headers from `.eml` and `.msg (actually alpha wip!)` files, highlights important fields, and provides insights into SPF, DKIM, and DMARC results.
+Graphical PowerShell application designed to help investigators, security analysts, and IT professionals examine email headers for signs of phishing or spoofing. The tool parses headers from `.eml` and `.msg` files, highlights important fields, and provides insights into SPF, DKIM, and DMARC results.
 
 ---
 
 ## 🎯 Features
 
 - GUI-based interface using `System.Windows.Forms`
-- Load `.eml` or `.msg (actually alpha wip!)` files directly
+- Load `.eml` or `.msg (actually via COM and/or dll support!)` files directly
 - Parses and highlights:
   - `SPF`, `DKIM`, and `DMARC` results
   - Common headers like `From`, `To`, `Subject`, etc.
@@ -41,16 +41,19 @@ Graphical PowerShell application designed to help investigators, security analys
 
 4. Optionally, click "Export TXT" or "Export CSV" to save the analysis.
 
+---
 
-🛠 Requirements
+## 🛠 Requirements
 
-    Windows PowerShell
-
-    .NET Framework (for Windows Forms)
-
-    PowerShell Execution Policy allowing script execution (e.g. RemoteSigned)
+> Windows PowerShell
+>
+> .NET Framework (for Windows Forms)
+> PowerShell Execution Policy allowing script execution (e.g. RemoteSigned)
+>
+> For .msg support you need Outlook installed! Or download msgreader.dll and put it in root dir of phat.ps1 (https://github.com/Sicos1977/MSGReader)
     
+---
 
-This tool is intended for educational and forensic purposes only. Use it responsibly and legally.
+### This tool is intended for educational and forensic purposes only. Use it responsibly and legally.
 
 
